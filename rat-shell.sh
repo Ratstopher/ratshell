@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Clone your zsh config from GitHub
-GIT_REPO="https://github.com/Ratstopher/ratshell.git"
-DEST_DIR="$HOME/.config/zsh-setup"
-
 # Update and install fun stuff first (for colored output)
 echo -e "\e[1;35m[*] Installing fun stuff...\e[0m"
 sudo apt update && sudo apt install -y figlet lolcat
